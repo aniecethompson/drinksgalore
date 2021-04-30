@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/drinksgalore/static/css/main.91ef9c1e.chunk.css",
+    "main.js": "/drinksgalore/static/js/main.88780176.chunk.js",
+    "main.js.map": "/drinksgalore/static/js/main.88780176.chunk.js.map",
+    "runtime-main.js": "/drinksgalore/static/js/runtime-main.6d0a19fb.js",
+    "runtime-main.js.map": "/drinksgalore/static/js/runtime-main.6d0a19fb.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/drinksgalore/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.6bd8b8f1.chunk.js": "/drinksgalore/static/js/2.6bd8b8f1.chunk.js",
+    "static/js/2.6bd8b8f1.chunk.js.map": "/drinksgalore/static/js/2.6bd8b8f1.chunk.js.map",
+    "static/js/3.e84b2026.chunk.js": "/drinksgalore/static/js/3.e84b2026.chunk.js",
+    "static/js/3.e84b2026.chunk.js.map": "/drinksgalore/static/js/3.e84b2026.chunk.js.map",
+    "index.html": "/drinksgalore/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/drinksgalore/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.91ef9c1e.chunk.css.map": "/drinksgalore/static/css/main.91ef9c1e.chunk.css.map",
+    "static/js/2.6bd8b8f1.chunk.js.LICENSE.txt": "/drinksgalore/static/js/2.6bd8b8f1.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6d0a19fb.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.6bd8b8f1.chunk.js",
+    "static/css/main.91ef9c1e.chunk.css",
+    "static/js/main.88780176.chunk.js"
+  ]
+}
