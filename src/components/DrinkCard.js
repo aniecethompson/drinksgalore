@@ -62,8 +62,4 @@ function DrinkCard(props) {
 }
 
 export default DrinkCard
-//GOALS
-// Style this card
-// implement search
-// add to github
-// host on a site
+
