@@ -16,26 +16,23 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <nav class="navbar navbar-light" className="nav">
+        <nav className="navbar navbar-light offset-md-2">
           <ul>
             <li
-              class="btn btn-outline-primary btn-lg"
+              className="btn btn-outline-primary btn-lg navLink"
               style={{ backgroundColor: '#ffe6ff ' }}
-              className="navLink"
             >
               <Link to="/">Drink of the Day</Link>
             </li>
             <li
-              class="btn btn-outline-primary btn-lg"
+              className="btn btn-outline-primary btn-lg navLink"
               style={{ backgroundColor: '#ffe6ff ' }}
-              className="navLink"
             >
               <Link to="/alcoholic">Alcoholic</Link>
             </li>
             <li
-              class="btn btn-outline-primary btn-lg"
+              className="btn btn-outline-primary btn-lg navLink"
               style={{ backgroundColor: '#ffe6ff ' }}
-              className="navLink"
             >
               <Link to="/non_alcoholic">Non-Alcoholic</Link>
             </li>
@@ -69,8 +66,6 @@ function Drinks(props) {
         setDrink(data.drinks[0])
       })
   }, [drinkId])
-
-  console.log({ drink: drink })
 
   return drink ? <DrinkCard drinkInfo={drink} /> : 'Loading...'
 }

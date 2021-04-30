@@ -1,21 +1,22 @@
-function DrinkCard(props) {
+export function getIngredients(drinkInfo) {
+  //start at first ingredient
+  let counter = 1
   let measurements = {}
 
-  function getIngredients() {
-    let counter = 1
-
-    for (const item in props.drinkInfo) {
-      if (
-        item === `strIngredient${counter}` &&
-        props.drinkInfo[item] !== null
-      ) {
-        measurements[props.drinkInfo[`strIngredient${counter}`]] =
-          props.drinkInfo[`strMeasure${counter}`]
-        counter++
-      }
+  // loop through drinkInfo object and if key is equal to an ingredient, save ingredient and amount needed for drink in the above object
+  for (const item in drinkInfo) {
+    if (item === `strIngredient${counter}` && drinkInfo[item] !== null) {
+      measurements[drinkInfo[`strIngredient${counter}`]] =
+        drinkInfo[`strMeasure${counter}`]
+      counter++
     }
   }
-  getIngredients()
+
+  return measurements
+}
+
+function DrinkCard(props) {
+  let measurements = getIngredients(props.drinkInfo)
 
   return (
     <div className="drink">
@@ -37,6 +38,7 @@ function DrinkCard(props) {
       </p>
       <p>
         <b>Ingredients: </b>
+        {/* map through object of ingredients and measurements */}
         {Object.keys(measurements).map((ingredient) => {
           if (measurements[ingredient] === 'Garnish with') {
             return (
@@ -56,10 +58,8 @@ function DrinkCard(props) {
       <p>
         <b>Instructions:</b> {props.drinkInfo.strInstructions}
       </p>
-      <h1>{console.log(props.drinkInfo)}</h1>
     </div>
   )
 }
 
 export default DrinkCard
-

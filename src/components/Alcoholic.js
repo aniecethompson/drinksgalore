@@ -5,6 +5,7 @@ function Alcoholic() {
   const [drinks, setDrinks] = useState([])
 
   useEffect(() => {
+    // get list of alcoholic drinks
     fetch('https://www.thecocktaildb.com/api/json/v1/1/filter.php?a=Alcoholic')
       .then((response) => response.json())
       .then((data) => setDrinks(data.drinks))

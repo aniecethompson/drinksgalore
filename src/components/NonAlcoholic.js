@@ -5,6 +5,7 @@ function NonAlcoholic() {
   const [drinks, setDrinks] = useState([])
 
   useEffect(() => {
+    // get list of non-alcoholic drinks
     fetch(
       'https://www.thecocktaildb.com/api/json/v1/1/filter.php?a=Non_Alcoholic'
     )
