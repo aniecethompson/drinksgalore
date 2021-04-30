@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/drinksgalore/static/css/main.91ef9c1e.chunk.css",
-    "main.js": "/drinksgalore/static/js/main.88780176.chunk.js",
-    "main.js.map": "/drinksgalore/static/js/main.88780176.chunk.js.map",
+    "main.js": "/drinksgalore/static/js/main.8bc8e0ad.chunk.js",
+    "main.js.map": "/drinksgalore/static/js/main.8bc8e0ad.chunk.js.map",
     "runtime-main.js": "/drinksgalore/static/js/runtime-main.6d0a19fb.js",
     "runtime-main.js.map": "/drinksgalore/static/js/runtime-main.6d0a19fb.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/drinksgalore/static/css/2.4c97ca4f.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.6bd8b8f1.chunk.js",
     "static/css/main.91ef9c1e.chunk.css",
-    "static/js/main.88780176.chunk.js"
+    "static/js/main.8bc8e0ad.chunk.js"
   ]
 }
